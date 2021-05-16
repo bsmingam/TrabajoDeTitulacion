@@ -8,6 +8,8 @@ En la carpeta nombrada como "INFORMES" se comparte los diferentes informes reali
 
 En la carpeta nombrada como "DATA" se comparte el conjunto de datos utilizado en el presente estudio.
 
+En la carpeta nombrada como "Models" se comparte los modelos exportados en un formato pkl. Esto con la finalidad de garantizar la persistencia de los modelos de ML
+
 En la carpeta nombrada como "Scripts-Notebooks" se comparte los diferentes archivos que contienen la codificación utilizada para en proceso de Machine Learning.
 
 Se comparte los enlaces a los documentos utilizados para codificar el proceso de machine learning con google colab.
