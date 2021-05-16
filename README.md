@@ -1,4 +1,4 @@
-# TrabajoDeTitulacion
+# Trabajo DE titulacion
 Recursos utilizados durante la ejecución del proyecto: Machine Learning para el análisis del rendimiento académico de estudiantes de Ingeniería
 
 LOS RECURSOS QUE SE ENCUENTRAN EN ESTE REPOSITORIO O QUE SE COMPARTEN MEDIANTE ENLACES WEB ESTAN A LIBRE DISPONIBILIDAD.
