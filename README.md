@@ -1,11 +1,12 @@
 # TrabajoDeTitulacion
-Recursos utilizados durante la ejecucion del proyecto de Machine Learning
+Recursos utilizados durante la ejecución del proyecto: Machine Learning para el análisis del rendimiento académico de estudiantes de Ingeniería
 
-==============================================================
 LOS RECURSOS QUE SE ENCUENTRAN EN ESTE REPOSITORIO O QUE SE COMPARTEN MEDIANTE ENLACES WEB ESTAN A LIBRE DISPONIBILIDAD.
 Por tal motivo, los usuarios y/o lectores pueden utilizarlos y modificarlos con total libertad...
 
 En la carpeta nombrada como "INFORMES" se comparte los diferentes informes realizados durante el desarrollo del trabajon de investigación.
+
+En la carpeta nombrada como "DATA" se comparte el conjunto de datos utilizado en el presente estudio.
 
 En la carpeta nombrada como "Scripts-Notebooks" se comparte los diferentes archivos que contienen la codificación utilizada para en proceso de Machine Learning.
 
