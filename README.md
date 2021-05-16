@@ -12,6 +12,8 @@ En la carpeta nombrada como "Models" se comparte los modelos exportados en un fo
 
 En la carpeta nombrada como "Scripts-Notebooks" se comparte los diferentes archivos que contienen la codificación utilizada para en proceso de Machine Learning.
 
+En la carpeta nombrada como "src" se comparte los codigos utilizados para crear las dos herramientas WEB para CLIENTE y BACKEND, que sirvieron para probar y simular los modelos.
+
 Se comparte los enlaces a los documentos utilizados para codificar el proceso de machine learning con google colab.
 
 DOCUMENTO DEL ANALISIS EXPLORATORIO
