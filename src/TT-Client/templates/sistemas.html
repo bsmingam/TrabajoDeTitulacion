@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1 class="display-4">Sistemas</h1>
+    <br>
+    <form action="#" method="POST">
+        <h5>Predecir por estudiante</h5>
+         <input type="hidden" name="custId" value="1">
+        <div class="form-inline">
+            <label class="control-label">Seleccione el ciclo académico: &nbsp;</label>
+            <select class="form-control" title="Ciclo" name="ciclo">
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <label>Cálculo Diferencial</label>
+                <select class="form-control" name="calculo_diferencial">
+                    <option>1</option>
+                    <option>0</option>
+                </select>
+            </div>
+
+            <div class="col">
+                <label name="name">Física II</label>
+                <select class="form-control" name="fisica_2">
+                    <option>1</option>
+                    <option>0</option>
+                </select>
+            </div>
+            <div class="col">
+                <label name="name">Cálculo Integral</label>
+                <select class="form-control" name="calculo_integral">
+                    <option>1</option>
+                    <option>0</option>
+                </select>
+            </div>
+            <div class="col">
+                <label name="name">Algebra Lineal</label>
+                <select class="form-control" name="algebra_lineal">
+                    <option>1</option>
+                    <option>0</option>
+                </select>
+            </div>
+            <div class="col">
+                <label name="name">Programación I</label>
+                <select class="form-control" name="programacion_1">
+                    <option>1</option>
+                    <option>0</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <button type="submit" type="button" id="simular" class="btn btn-primary btn-lg btn-block"> Predecir</button>
+    </form>
+
+    <br>
+    <hr class="my-4">
+    <br>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+       <h5>Predecir porcentajes</h5>
+        <input type="hidden" name="custId" value="n">
+         <div class="form-inline">
+            <label class="control-label">Seleccione el ciclo académico: &nbsp;</label>
+            <select class="form-control" title="Ciclo" name="ciclo">
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <input type="file" name="file" accept=".csv">
+            </div>
+
+            <div class="col">
+                <button type="submit" type="button" class="btn btn-primary btn-lg btn-block"> Predecir porcentajes</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock%}

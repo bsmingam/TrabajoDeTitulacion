@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">Resultado de la predicción</h1>
+
+    {% if code == 0 %}
+        <p class="lead">En base a las caracteristicas, el modelo predice que el estudiante <b>{{ result }}</b>  el <b> {{ciclo}}</b>  ciclo.</p>
+    {% else %}
+        <p class="lead">En base a las caracteristicas, el modelo predice que el <b>{{ result }}%</b>  de estudiantes pueden <b> REPROBAR</b>  el <b> {{ciclo}}</b> ciclo.</p>
+    {% endif %}
+
+    <a class="btn btn-primary btn-lg" href="{{ url_for('sistemas') }}" role="button">Realizar otra predicción</a>
+</div>
+
+{% endblock%}
